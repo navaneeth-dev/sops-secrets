@@ -5,7 +5,7 @@ kind: Secret
 metadata:
     creationTimestamp: null
     name: cf
-    namespace: cert-manager
+    namespace: homelab
 sops:
     age:
         - recipient: age1xcavq2xfqzvr6jr0amr2axjgjrn70v5fd9gs8mpu7yzvc297pucscxd252
