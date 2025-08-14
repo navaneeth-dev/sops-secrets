@@ -1,5 +1,6 @@
 [env]
 KUBECONFIG = "{{config_root}}/../fluxcd-homelab/kubeconfig"
+SOPS_AGE_KEY_FILE = "/home/rize/.ssh/key.txt"
 
 [tools]
 sops = "latest"
