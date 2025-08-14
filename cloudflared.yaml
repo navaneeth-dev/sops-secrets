@@ -1,3 +1,10 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: cloudflared
+---
 apiVersion: v1
 data:
     token: ENC[AES256_GCM,data:Th7tuImshgxNUfZHKmgxetSRUJCo41cyCeTf8Zaaqx4X6E4cteitGVUWYT1mp8SxFjRMABq3777F0d6QkzhCSiF/qt59eIbtYJKApe06rudd5TpralsWq0xneOEdWX2uvQr1h2Ore2799MNHdtDYLDhM3oyaUnUku9fOEb4y7vyeU5Af1D+Gr1LpgZ0NLhLhuljpaXENjjcIH0fKD8WW0+0re5VB4YWAb8iO70hwHxd0s90mdX1s4UnESu6XI10kkmT/XsTXKqleW4fvp4UhHyBYa98HhGL1QUMynetnUyWYnbF9jxRnt+nnbADqw6JCK0OHHL9yWxQ=,iv:vBOKqFfFrBZvTSanxOQp5y3diMREpbZJ2O//YzzaNlQ=,tag:qwHX/kNcaSRjgZOMqOOrjA==,type:str]
